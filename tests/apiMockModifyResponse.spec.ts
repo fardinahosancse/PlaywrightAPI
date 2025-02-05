@@ -21,7 +21,7 @@ test.beforeEach(async ({ page }) => {
   // });
 
   // // **Force the app to re-fetch the API (if needed)**
-  // await page.reload({ waitUntil: 'networkidle' }); 
+  await page.reload({ waitUntil: 'networkidle' }); 
   // // Ensures fresh requests
 
   //////////////////////////////////////////////////////////////
